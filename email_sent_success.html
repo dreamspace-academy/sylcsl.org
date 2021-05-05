@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Donate - Sagacious Youth Lead Consortium</title>
+  <title>Contact - Sagacious Youth Lead Consortium</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -64,12 +64,12 @@
           <li class="dropdown"><a href="#"><span>Get Involved</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="volunteer.html">Volunteer with us</a></li>
-              <li><a href="contact.html#contact">Partner with us</a></li>
+              <li><a href="#contact">Partner with us</a></li>
             </ul>
           </li>
           <li><a href="index.html#blogpage">Blog</a></li>
-          <li><a href="donate.html" class="active">Donate</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -84,33 +84,19 @@
   </header><!-- End Header -->
 
   <main id="main" style="margin-top:95px;">
-    
-    <section id="about-us" class="about-us">
-      <div class="container" data-aos="fade-up">
 
-        <div class="row content">
-          <div class="col-lg-6" data-aos="fade-right">
 
-            <img class="img-thumbnail" src="assets/img/donate.jpg" width="100%;" height="450px;">
-           
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <h4>BE A REASON FOR SOMEONE'S SMILE!!!</h4>
-            <br>
-            <p style="text-align: justify;">Every single donation you make will contribute to transform an individual, a community, a conflict, a socio-economic environmental challenge that arose in Mullaitivu and Batticaloa District in the North and the East of Sri Lanka.</p>
-            <p style="text-align: justify;">Join our Social Media Community Pages to review the donation you make is impacting, uplifting, and transforming many lives!</p>
-            <br>
-            <h5>Send your financial donations to</h5>
-        
+    <div class="section-title" data-aos="fade-up" style="margin-top: 200px;">
+      <h2 id="sending_id" style="text-align: center;">Sending...</h2>
+    </div>
 
-            <ul>
-              <li style="text-align: justify;"><i class="ri-check-double-line"></i><span style="font-weight: bold;"> Account Name: </span> 	Sagacious Youth Lead Consortium <br> <span style="font-weight: bold;">Account Number:</span> 76819675 <br> <span style="font-weight: bold;">Name of the Bank:</span> 	Bank of Ceylon [BOC] <br> <span style="font-weight: bold;">Bank Branch:</span> 	Kallady Branch <br> <span style="font-weight: bold;">Code:</span>426 <br> <span style="font-weight: bold;">Swift Code:</span>BCEYLKLX</li>
-            </ul>
-          </div>
-        </div>
+    <div style="width: 50%; margin: 0 auto;">
 
-      </div>
-    </section><!-- End About Us Section -->
+      <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="assets/img/email.gif">
+
+   </div>
+
+
 
   </main><!-- End #main -->
 
@@ -132,12 +118,35 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+  
+  window.onload = function(){
+
+		window.setTimeout(function(){
+
+			document.getElementById("sending_id").innerText = "Sent Successfully!";
+			document.getElementById("sending_id").style.color = "#88d4fc";
+		  
+
+		}, 2000);
+
+		window.setTimeout(function(){
+
+
+		  window.location.href = 'index.html'; //one level up
+
+		}, 5000);
+  
+  }
+
+
+  </script>
 
 </body>
 
