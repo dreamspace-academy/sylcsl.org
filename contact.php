@@ -24,7 +24,7 @@ $headers .= 'From: '.$from."\r\n".
  
 // Compose a simple HTML email message
 $message = '<html><body>';
-$message .= '<h1 style="text-align: center;">Email from SYLC membership forum</h1>';
+$message .= '<h1 style="text-align: center;">Email from SYLC Website Contact Form</h1>';
 $message .= '<p>First Name: <span style="font-weight: bold;">'.$fname.'</span></p>';
 $message .= '<p>Last Name: <span style="font-weight: bold;">'.$lname.'</span></p>';
 $message .= '<p>Email: <span style="font-weight: bold;">'.$email.'</span></p>';
