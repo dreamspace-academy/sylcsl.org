@@ -164,6 +164,25 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+
+  <script type='text/javascript' src="https://www.botlibre.com/scripts/sdk.js"></script>
+  <script type='text/javascript'>
+  SDK.applicationId = "2702573227309893595";
+  var sdk = new SDKConnection();
+  var web = new WebAvatar();
+  web.version = 8.5;
+  web.connection = sdk;
+  web.avatar = "22225225";
+  web.voice = "dfki-spike";
+  web.voiceMod = "default";
+  web.lang = "en-US";
+  web.width = "330";
+  web.createBox();
+  web.addMessage("Hello, Welcome.The project AISLE.Artificial Intelligence for Sustaining Local Peacebuilding. Sagacious Youth Lead Consortium stepped into peacebuilding and reconciliation works since 2015 to nurture the participation of young people in peacebuilding, and to contribute for reconciliation in Sri Lanka to narrow the disparities between Tamil, Sinhala and Muslim communities.As an authentic grass-root movement SYLC experienced the challenges, and witnessing sustaining the peace is a question. Since 2018 SYLC began to research, context-mapping, and experimenting authentic methodologies to sustain peace, and social cohesion. Project AISLE is one of the outcomes researched, and started in 2019 to sustain peacebuilding through artificial intelligence.Project AISLE is an initiative to train young people from diverse backgrounds in artificial intelligence to benefit for reintegration of the splitted mentalities. It is indeed a 18 months long term process to train, reintegrate, and disseminate peace through artificial intelligence.Why Artificial Intelligence?As humans we often forget to advocate for social problems that create disparities, hate speech, and misinformation until the pathway for solution opens. Instead we jump into other problems which are very natural, and proven in the past incidents that happened in Sri Lanka. There are many reasons such as security, commitments, and betrayals etc. which are acceptable as humans but leaving the problem as it is very dangerous too.Hence, artificial intelligence is being used to benefit for peacebuilding, ensuring the security of human beings, sustainable development, and to voice for the voiceless.", "happy", "", "");
+  web.processMessages();
+  </script>
+
+
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
