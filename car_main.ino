@@ -18,7 +18,6 @@ void setup() {
 
 }
 
-
 void loop() {
 
     digitalWrite(LeftMotorForward, HIGH);
